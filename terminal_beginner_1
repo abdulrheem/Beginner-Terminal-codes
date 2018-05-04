@@ -1,0 +1,26 @@
+~ls: view files and directories. Can be modified by options.
+
+~ls -a: shows hidden files and directories. #The hidden files are called "dotfiles" "dot files"
+
+~(-a): is an examlple of an option, options modify how commands work.(-t and -l are also options)
+
+~ls -t: shows the files in order of last modified.
+
+~ls -l: displays the files and directories in a long format of a table. The columns are as follows (form left to right):
+
+1-Access rights. These are actions that are permitted on a file or directory.
+2-Number of hard links. This number counts the number of child directories and files.This number includes the parent directory link (..) and current directory link (.).
+3-The username of the file's owner.
+4-The name of the group that owns the file.
+5-The size of the file in bytes.
+6-The date & time that the file was last modified.
+7-The name of the file or directory.
+
+~ls -la: Options can be used together.
+
+~cp <filename1> <filename2>: this copies files and directories 
+# If you copy two files with the same type the copied-from file will replace the copied-to file in contents
+# If you copy a file two a directory it another copy of it will exist in the new file while the original file will stay.
+~cp directory1/<filename> directory2/: if both directory1 and directory2 exist in the current directory.
+# cp <copied_from_file1_path> <copied_from_file2_path> <destination_file_path> 
+If the directories are'nt within the current directory you can do the same but you have to type the path to it
